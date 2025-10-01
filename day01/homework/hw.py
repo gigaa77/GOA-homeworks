@@ -8,7 +8,6 @@ print("######")
 
 #2) გამოიტანეთ თქვენი საყვარელი 5 საჭმელი, ყველა თითო ხაზზე
 
-print("rom gaarchio")
 
 print("khinkali")
 print("lobiani")
@@ -18,14 +17,12 @@ print("caesar salad")
 
 #3) მარტივი გამოიტანეთ Hello და თქვენი სახელი
 
-print("rom gaarchio")
 
 name="giga"
 print(f"hello {name}")
 
 #4) დაპტინტეთ ოთკუთხედი და ოთკუთხედის შუაში დაწერეთ რაიმე ტექსტი, 
 
-print("rom gaarchio")
 
 print("++++++++++++++")
 print("+ halloooooo +")
@@ -33,7 +30,6 @@ print("++++++++++++++")
 
 #5) გააკეთეთ მარტივი მენიუ, ყველა საჭმელს მიუწერეთ ფასი (ყველა ახალ ხაზებზე გამოიტანეთ'''
 
-print("rom gaarchio")
 
 print("menu: ")
 print("lobiani : 10 lari")
@@ -62,7 +58,6 @@ price5=30
 price6=1.50
 price7=2
 
-print("rom gaarchio")
 
 print(f"{food1} : {price1} lari")
 print(f"{food2} : {price2} lari")
