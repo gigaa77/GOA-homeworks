@@ -4,4 +4,6 @@ print("################")
 print(f"#         {digit}    #")
 print("################")
 
-#aq sxvanairad rovaketeb otkutxedi arasworad gamodis da aseroa outputshi sworad gamodis (digitze mxolod).....................
+
+
+
