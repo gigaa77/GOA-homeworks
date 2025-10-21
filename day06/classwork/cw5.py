@@ -3,7 +3,7 @@
 a=int(input("enter your first number: "))
 b=int(input("enter your second number: "))
 
-if a or b >5:
-    print(" ერთ-ერთი პირობა მაინც სწორია")
+if a >5 or b >5:
+    print(" at least one of your statements are true")
 else:
-    print("არც ერთი პირობა არ შესრულდა")
+    print("neither of your statements are true")

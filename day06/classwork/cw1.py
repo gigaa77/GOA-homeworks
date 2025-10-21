@@ -1,7 +1,7 @@
-# 1)მომხმარებელს შემოატანინეთ რიცხვი და გაარკვიეთ დადებითი არის თუ არა(if,else). 
+#1)
 
 number=int(input("enter a number: "))
 if number >0:
-    print("დადებითია")
+    print("the number is positive: ")
 else:
-    print("არ არის დადებითი")
+    print("the number is not positive or it is 0")

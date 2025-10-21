@@ -3,7 +3,7 @@
 number1=int(input("enter your first number: "))
 number2=int(input("enter your second number: "))
 
-if number1 and number2 >0:
-    print("ორივე დადებითია")
+if number1 >0 and number2 >0:
+    print("both statements are true")
 else:
-    ("პირობა არასორია")
+    ("statement is false")

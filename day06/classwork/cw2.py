@@ -2,9 +2,9 @@
 
 number=int(input("enter a number: "))
 if number ==10:
-    print("რიცხვი არის 10-ის ტოლი")
+    print("number is equal to ten")
 else:
-    print("რიცხვი არ არის 10-ის ტოლი")
+    print("number is not equal to ten")
 
 
 
