@@ -9,9 +9,11 @@
 age=int(input("enter your age: "))
 student=input("are you a student (yes/no)? ")
 
-if age < 12 or age > 65:
-    print(" ticket is free")
+if student!="yes" and  student!="no":
+    print("you have to answer with yes or no")
+elif age < 12 or age > 65:
+    print(" a ticket is free")
 elif student == "yes" and age >12:
-    print("ticket for half price")
+    print(" a ticket for half price")
 else:
     print("you must to pay the full price ")

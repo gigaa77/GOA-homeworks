@@ -15,6 +15,6 @@ if temp > 25 and rain =="no":
 elif temp > 25 and rain =="yes":
     print(" it is hot and rainy outside. you will need a hat")
 elif temp < 10 or rain =="yes":
-    print("it is better to stay home")
+    print("it is better to stay at home")
 else:
     print("it is nice weather")
