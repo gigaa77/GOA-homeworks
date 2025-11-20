@@ -13,6 +13,9 @@ print(total)
 
 
 
+
+
+
 number = int(input("enter a number: "))
 
 
