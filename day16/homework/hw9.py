@@ -27,15 +27,8 @@ elif operator == "%":
     print(number1 % number2)
 
 elif operator == ">":
-    if number1 > number2:
-        print("true")
-    else:
-        print("false")
+    print(number1 > number2)
 
 elif operator == "<":
-    if number1 < number2:
-        print("ture")
-    else:
-        print("false")
-
+    print(number1 < number2)
 
