@@ -13,20 +13,20 @@
 #     სხვა შემთხვევაში დაუპრინტე --> შენი სახელი არ არის კოტე მაგრამ ხალ ახალგაზრდა
 
 
-number = int(input("enter a number: "))
+age = int(input("enter your age: "))
 
 
 name = input("enter a name: ")
 
 
-if number >= 60:
+if age >= 60:
     if name == "kote":
         print("your name is kote but you are old. ")
     else:
         print("your name is not kote but you are old")
 
 
-elif number < 60:
+elif age < 60:
     if name == "kote":
         print("your name is kote but you are young")
     else:
