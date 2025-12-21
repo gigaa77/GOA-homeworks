@@ -8,7 +8,7 @@
 
 nums = [3, 22, 45, 90, 60, 77]
 
-if nums[0] > 5 and nums[3] > 0:
+if nums[0] > 5 and nums[3] > 5:
     print("both more than 5")
 else:
     print("both less than 5")

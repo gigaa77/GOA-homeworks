@@ -9,7 +9,7 @@ letters =["a", "b", "c"]
 
 user_input = input("enter any letter: ")
 
-letters[0] = user_input
+letters[1] = user_input
 
 print(letters)
 
