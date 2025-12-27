@@ -4,7 +4,7 @@ nums = []
 
 
 while True:
-    num = (input("enter any number (say stop if you want to end): "))
+    num = input("enter any number (say stop if you want to end): ")
     
     if num == "stop":
         break
