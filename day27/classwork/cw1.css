@@ -1,0 +1,24 @@
+h1 {
+    color: black;
+    background-color: blue;
+    text-align: center;
+    font-size: 30;
+    border: 2px solid red;
+
+}
+
+p {
+    color: purple;
+    background-color: yellow;
+    text-align: right;
+    font-size: 20;
+    border: 2px solid orange;
+}
+
+button {
+    color: green;
+    background-color: pink;
+    text-align: left;
+    font-size: 15;
+    border: 2px solid goldenrod;
+}
