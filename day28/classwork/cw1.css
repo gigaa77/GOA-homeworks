@@ -1,0 +1,33 @@
+h1{
+    color: blue;
+
+    background-color: red;
+
+}
+
+h3{
+    color: blue;
+
+    background-color: red;
+
+}
+
+
+
+
+
+p{
+    color: purple;
+
+    background-color: pink;
+}
+
+
+
+
+
+button{
+    height: 77px;
+    width: 77px;
+    border: 2px solid red;
+}
