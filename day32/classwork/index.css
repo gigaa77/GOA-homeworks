@@ -1,0 +1,34 @@
+/* 1)შექმენი 
+
+ორი ცალი h2 
+
+სამი ცალი p
+
+თქვენი დავალებაა რომ მისცე თთოეულ ელემენტს განსხვავებული id ატრიბუტები და 5 ივე ელემენტის ფერი და ზომა გახადეტ განსხვავებული
+
+გამოიყენეთ id და external css */
+
+#firsth2{
+    color: blue;
+    font-size: 35px;
+}
+
+#secondh2{
+    color: red;
+    font-size: 25px;
+}
+
+#firstp{
+    color: purple;
+    font-size: 22px;
+}
+
+#secondp{
+    color: black;
+    font-size: 19px;
+}
+
+#thirdp{
+    color: pink;
+    font-size: 12px;
+}
