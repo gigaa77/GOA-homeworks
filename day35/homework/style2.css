@@ -1,0 +1,18 @@
+/* 3)ერთ ელემენტს მიანიჭე class და id ერთდროულად.
+ორივესთვის დაწერე განსხვავებული სტილი.
+ნახე რომელი სტილი იმუშავებს და ახსენი მიზეზი. */
+
+.classp1{
+    color: red;
+    background-color: cadetblue;
+    font-size: 25px;
+}
+
+#idp1{
+    color: blue;
+    background-color: brown;
+    font-size: 20px;
+}
+
+
+/* იმუშავებს id-ით გასტილვა, რადგან id უფრო პრიორიტეტულია */

@@ -1,0 +1,21 @@
+/* 6)ელემენტს დაუწერე სტილი inline ფორმით და ასევე CSS ფაილში.
+შეადარე მათი პრიორიტეტი და ახსენი შედეგი. */
+
+h1{
+    color: red;
+    background-color: purple;
+}
+
+.classh1{
+    color: blue;
+    background-color: black;
+}
+
+
+#idh1{
+    color: green;
+    background-color: yellow;
+}
+
+
+/* გაისტილა inline css-ით რადგან ის ყველაზე პრიორიტეტულია.(შემდეგ id, class, element) */

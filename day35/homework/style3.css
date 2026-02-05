@@ -1,0 +1,18 @@
+/* 4)ელემენტს მიანიჭე ორი განსხვავებული class.
+ორივე class-ს მიეცი განსხვავებული სტილი.
+დააკვირდი, რომელი სტილი გამოჩნდება საბოლოოდ
+*/
+
+.p1{
+    color: red;
+    background-color: aqua;
+    text-align: right;
+}
+
+.p2{
+    color: blue;
+    background-color: pink;
+    text-align: center;
+}
+
+/* გაისტილა იმ class-ით რომელიც პირველად მივეცით */
