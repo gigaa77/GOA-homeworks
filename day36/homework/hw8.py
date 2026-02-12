@@ -7,7 +7,7 @@ def didi(text, num):
 
     num = str(num)
 
-    print(text, num)
+    return text, num
 
 
-didi("rogorxar", 77)
+print(didi("rogorxar", 77))

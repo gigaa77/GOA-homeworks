@@ -1,0 +1,29 @@
+/* 
+4)შექმენით 3 div მიეცით ზომები(სიმაღლე სიგანე) და:
+
+პირველს მიეცით rgb(255, 0, 0)
+
+მეორეს rgb(0, 255, 0)
+
+მესამეს rgb(0, 0, 255)
+
+გამოიყენე id selector  ელემენტების გასასტილად */
+
+
+#div1{
+    width: 200px;
+    height: 150px;
+    background-color: rgb(255, 0, 0);
+}
+
+#div2{
+    width: 200px;
+    height: 150px;
+    background-color: rgb(0, 255, 0);
+}
+
+#div3{
+    width: 200px;
+    height: 150px;
+    background-color: rgb(0, 0,255 );
+}

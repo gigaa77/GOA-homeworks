@@ -1,0 +1,30 @@
+/* 7)შექმენით 3 div მიეცით ზომები(სიმაღლე სიგანე) და:
+
+პირველს მიეცით #FF0000
+
+მეორეს  #00FF00
+
+მესამეს #0000FF
+
+გამოიყენე clas selector ელემენტების გასასტილად
+ */
+
+
+.div1{
+    width: 250px;
+    height: 190px;
+    background-color: #FF0000;
+}
+
+.div2{
+    width: 250px;
+    height: 190px;
+    background-color: #00FF00;
+}
+
+
+.div3{
+    width: 250px;
+    height: 190px;
+    background-color: #0000FF;
+}
