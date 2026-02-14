@@ -1,0 +1,13 @@
+/* 2)გააკეთეთ ისე როგორც ფოტოშია მოცემული,გამოიყენეთ შემოკელბული ფორმა სამივე ტექსტზე (text-decoration) */
+
+#p1{
+    text-decoration: black double solid;
+}
+
+#p2{
+    text-decoration: green dashed line-through;
+}
+
+#p3{
+    text-decoration: blue overline dotted;
+}

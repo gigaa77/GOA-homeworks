@@ -1,0 +1,11 @@
+#head1{
+    text-transform: uppercase;
+    color: blue;
+    text-shadow: 2px 2px 0 rgb(254, 137, 193);
+}
+
+#head2{
+    color: black;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 4px green;
+}
