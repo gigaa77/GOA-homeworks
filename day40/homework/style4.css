@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Slabo+27px&display=swap');
+
+/* შექმენი Quote Card. ციტატის ტექსტი იყოს (მაგ: Merriweather), ავტორის სახელი იყოს განსხვავებული, უფრო მინიმალისტური ფონტით (მაგ: Lato) */
+
+.div1{
+    background-color: black;
+    width: 40%;
+    height: 100px;
+    border-radius: 12px;
+
+}
+
+.p1{
+    color: white;
+    font-family:"Bungee", sans-serif ;
+    padding: 10px;
+}
+
+.p2{
+    color: white;
+    font-family:"Slabo 27px", serif ;
+    text-align: right;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}

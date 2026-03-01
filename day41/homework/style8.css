@@ -1,0 +1,27 @@
+/* 8)შექმენი card div:
+
+hover-ზე შეიცვალოს background
+
+active-ზე შეიცვალოს border
+ */
+
+.card{
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px black;
+    background-color: aqua;
+}
+
+.card:hover{
+    background-color: brown;
+
+}
+
+.card:active{
+    border: 2px solid purple;
+}
+
+.card button{
+    margin: 10px;
+    border-radius: 10px;
+}

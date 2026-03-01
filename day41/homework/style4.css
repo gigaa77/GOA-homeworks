@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Betania+Patmos&family=Orbitron:wght@400..900&family=Permanent+Marker&display=swap');
+
+/* 4)შექმენი მანქანიების დალაგებული სია.
+
+hover-ზე თითოეულ li-ზე:
+
+background-color შეიცვალოს
+
+ტექსტი გახდეს uppercase
+
+შეეცვალოს კალიგრაფია(დააიმპორტეთ google font საიტიდან ------>  შემდეგ დავალებებშიც გამოგადგებათ)
+ */
+
+li{
+    color: red;
+    background-color: blue;
+}
+
+
+.li1:hover{
+    color: black;
+    background-color: green;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:"Betania Patmos", cursive ;
+
+}
+
+.li2:hover{
+    color: aqua;
+    background-color: pink;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: "Anton", sans-serif;
+}
+
+.li3:hover{
+    color: purple;
+    background-color: yellow;
+    text-transform: uppercase;
+    font-family: "Orbitron", sans-serif;
+}
+
+.li4:hover{
+    color: orange;
+    background-color: black;
+    text-transform: uppercase;
+    font-family: "Permanent Marker", cursive;
+}

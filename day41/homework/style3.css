@@ -1,0 +1,17 @@
+/* 3)შექმენი div. მიეცი ზომები და წითელი ფერი
+hover-ზე:
+
+დაემატოს border რომელიც იქნება მწვანე ფერის 
+
+ასევე შეუცვალე უკანა ფონის ფერი და გახდეს ლურჯი */
+
+.div1{
+    background-color: red;
+    width: 30%;
+    height: 100px;
+}
+
+.div1:hover{
+    border: 1px solid green;
+    background-color: blue;
+}

@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+/* 5) შექმენი Hero სექცია დიდი სათაურით.დააიმპორტე Google Fonts-დან ფონტი (მაგ: Poppins ან Oswald), სათაურს დაუმატე text-shadow, ჩრდილი იყოს ოდნავ ქვემოთ ჩამოწეული. */
+
+h1{
+    font-family: "Permanent Marker", cursive;
+    text-shadow: 2px 2px 2px black;
+    color: black;
+    font-size: 25px;
+}

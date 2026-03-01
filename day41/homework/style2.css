@@ -1,0 +1,15 @@
+/* 2)შექმენი პარაგრაფი.
+hover-ზე:
+
+font-size გაიზარდოს
+
+ტექსტი გახდეს bold */
+
+.p1{
+    color: black;
+}
+
+.p1:hover{
+    font-size: 28px;
+    font-weight: bold;
+}
