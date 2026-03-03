@@ -1,0 +1,13 @@
+ul:nth-child(1){
+    list-style: url(check_24dp_75FB4C_FILL0_wght400_GRAD0_opsz24.png);
+}
+
+ul:nth-child(2){
+    list-style: url(close_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.png);
+}
+
+
+
+ul:nth-child(3){
+    list-style: url(capture_24dp_75FB4C_FILL0_wght400_GRAD0_opsz24.png);
+}

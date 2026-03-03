@@ -1,0 +1,25 @@
+/* 7)შექმენით 4 დაუნომრავი სია --> 
+
+პირველი სიის ტიპი იყოს --> ჩვეულებრვი default bullets
+
+მეორე სიის ტიპი იყოს --> ცარიელი bullets
+
+მესამე სიის ტიპი იყოს --> არაფერი არ ქონდეს წინ აითემებს
+
+მეოთხე სიის ტიპი იყოს --> ოთხკუთხედი bullets */
+
+ul:nth-child(1){
+    list-style:disc;
+}
+
+ul:nth-child(2){
+    list-style: circle;
+}
+
+ul:nth-child(3){
+    list-style: none;
+}
+
+ul:nth-child(4){
+    list-style: square;
+}
