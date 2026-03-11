@@ -1,0 +1,35 @@
+body{
+    background-color: #98d4f3;
+}
+
+input, label{
+    display: block;
+}
+
+label[for="name"]{
+    color: white;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+input[type="text"]{
+    outline: none;
+    border-radius: 12px;
+    border: none;
+    margin-left: 7px;
+    margin-top: 3px;
+}
+
+label[for="email"]{
+    color: white;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+input[type="email"]{
+    outline: none;
+    border-radius: 12px;
+    border: none;
+    margin-left: 7px;
+    margin-top: 3px;
+}

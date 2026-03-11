@@ -1,0 +1,29 @@
+input, label{
+    display: block;
+}
+
+input[type="text"]{
+    outline: none;
+    background-color:#ff4851;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+label[for="last_name"]{
+    color: #ff4851;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+input[type="email"]{
+    outline: none;
+    border: 1px solid #ff4851;
+    border-radius: 12px;
+    color: #ff4851;
+    margin-top: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}

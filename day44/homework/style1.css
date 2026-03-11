@@ -1,0 +1,37 @@
+label,input{
+    display: block;
+}
+
+
+input[type="text"]{
+    margin-top: 2px;
+    outline: none;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px gray;
+    margin-bottom:10px;
+}
+
+label[for="name"]{
+    color: rgb(5, 144, 243);
+    font-weight: bold;
+}
+
+label[for="email"]{
+    color: rgb(5, 144, 243);
+    font-weight: bold;
+}
+
+input[type="email"]{
+    margin-top: 2px;
+    outline: none;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px gray;
+    margin-bottom:10px;
+}
+
+
+label[for="subject"]{
+    color: rgb(5, 144, 243);
+    font-weight: bold;
+}
+
