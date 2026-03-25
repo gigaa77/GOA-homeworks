@@ -1,0 +1,18 @@
+/* 11)დავალება 2
+
+შექმენი კონტეინერი და 4 ბლოკი.
+ელემენტები დაალაგე ვერტიკალურად, მაგრამ ქვემოდან ზემოთ. */
+
+.parent{
+    width: 500px;
+    height: 500px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.child{
+    width: 60px;
+    height: 60px;
+    border: 2px solid blue;
+}

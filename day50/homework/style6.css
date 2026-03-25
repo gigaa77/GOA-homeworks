@@ -1,0 +1,18 @@
+/* 
+6)შექმენით მშობელი ელემენტი მიეცით ზომები და ფერი,შენი დავალებაა ამ მშობელ ელემენტშ ჩჩაამატო  4 ფოტო რომლებიც  განლაგებულნი იქნებიან ვერტიკალურად ,  იქნებიან სრულიად მშობელი ელემენტის ცენტრში და დააშორე ეს ფოტოები ერთმანეთს 40px ით */
+
+.parent{
+    width: 2000px;
+    height: 2000px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    justify-content: center;
+    gap: 40px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}

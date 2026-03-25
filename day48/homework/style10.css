@@ -1,0 +1,16 @@
+/* 10)შექმენი კონტეინერი და 3 ბლოკი.
+ელემენტები დაალაგე ჰორიზონტალურად, მაგრამ უკუღმა მიმართულებით. */
+
+.parent{
+    width: 500px;
+    height: 500px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.child{
+    width: 60px;
+    height: 60px;
+    border: 2px solid blue;
+}

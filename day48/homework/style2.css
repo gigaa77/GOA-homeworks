@@ -1,0 +1,29 @@
+/* 2)გამოიყენე წინა დავალებაში შექმნილი მშობელი
+
+დავალება:
+
+დააყენე flex-direction: row
+
+შემდეგ შეცვალე flex-direction: column
+
+აღწერე რა განსხვავებაა ამ ორ კუთვნილებას შორის კომენტარით */
+
+
+.parent{
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    display: flex;
+
+    /* flex-direction: row;
+       row ნიშნავს რომ ელემენტები განლაგდება ჰორიზონტალურად (მარცხნიდან მარჯვნივ) */
+
+    flex-direction: column;
+    /* column ნიშნავს რომ ელემენტები განლაგდება ვერტიკალურად (ზემოდან ქვემოთ) */
+}
+
+.child{
+    width: 60px;
+    height: 60px;
+    border: 2px solid blue;
+}

@@ -1,0 +1,23 @@
+/* 4)შექმენი კონტეინერი (width: 500px), შიგნით 1 ბლოკი.
+
+გამოიყენე:
+
+flex ის კუთვნილება რომელიც ამოძრავებს ელემენტებს y ღერძზე (გამოიყენე 3 ივე მათგანიდ ა გატესტე)
+
+დააკვირდი როგორ იცვლება ელემენტების ვერტიკალური პოზიცია */
+
+.parent{
+    width: 500px;
+    height: 500px;
+    border: 2px solid blue;
+    display: flex;
+    /* align-items: start;
+    align-items: center; */
+    align-items: end;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+}
