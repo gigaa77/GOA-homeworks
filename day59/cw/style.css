@@ -1,0 +1,32 @@
+/* 1)შექმენი 4 ღილაკი.მიეცი სიგანე და სიმაღლე ყველასდა დააშორე ერთმანეთისგან
+
+პირველი ღილაკი ჩამოწიე ზემოდან ქვემოთ 100px ით და მარცხნიდან მარჯვნივ 30px ით
+
+მესამე ღილაკი ჩამოწიე ზემოდან ქვემოთ 30px ით და გაწიე მარჯვნიდან მარცხნვ 20პხ ით */
+
+
+div{
+    height: 600px;
+    width: 900px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    height: 50px;
+    width: 50px;
+}
+
+.first{
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+
+.third{
+    position: relative;
+    top: 30px;
+    right: 20px;
+}

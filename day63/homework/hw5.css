@@ -1,0 +1,21 @@
+/* 5)შექმენი card:
+
+სურათი ცენტრში
+
+არ განმეორდეს
+
+contain იყოს
+
+ბოლოს shorthand იც */
+
+div{
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("download1.jpeg"); */
+
+    background: url("download1.jpeg") center / contain no-repeat;
+}

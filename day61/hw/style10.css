@@ -1,0 +1,29 @@
+div{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.pink{
+    z-index: 2;
+    background-color: pink;
+    top: 80px;
+    left: 80px;
+}
+
+.blue{
+    z-index:3;
+    background-color: blue;
+    top: 100px;
+    left: 140px;
+}
+
+.green{
+    z-index: 1;
+    background-color: green;
+    top: 147px;
+    left: 120px;
+}

@@ -1,0 +1,33 @@
+/* 8)გაქვს flex container და 3 ელემენტი.
+
+ყველა ელემენტს დაუყენე საწყისი ზომა 150px
+
+მაგრამ არ გამოიყენო width
+
+გამოიყენე მხოლოდ flex-basis სამივე მათგანზე ცალ ცალკე
+ */
+
+.parent{
+    height: 300px;
+    width: 500px;
+    border: 2px solid red;
+    display: flex;
+    gap: 10px;
+}
+
+.child{
+    height: 150px;
+    background-color: red;
+}
+
+#div1{
+    flex-basis: 100px;
+}
+
+#div2{
+    flex-basis: 50px;
+}
+
+#div3{
+    flex-basis: 75px ;
+}

@@ -1,0 +1,38 @@
+/* 6)შექმენი პატარა წრეები (4 ცალი), რომლებიც იქნებიან:
+
+ზედა მარცხენა
+ზედა მარჯვენა
+ქვედა მარცხენა
+ქვედა მარჯვენა
+
+გამოიყენეთ absolute */
+
+div{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+.first{
+    top: 0px;
+    left: 0px;
+}
+
+.second{
+    top: 0px;
+    right: 0px;
+
+}
+
+.third{
+    right: 0px;
+    bottom: 0px;
+}
+
+.fourth{
+    left: 0px;
+    bottom: 0px;
+}

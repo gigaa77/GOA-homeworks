@@ -1,0 +1,24 @@
+/* 
+3)შექმენი section:
+
+სურათის პოზოვია იყოს ქვედა მარჯვენა კუთხეში
+
+განმეორდეს მხოლოდ x
+
+ზომა იყოს 150px 150px
+
+ასევე ბოლოს - ყველაფერი ერთ ხაზში (shorthand) */
+
+section{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+
+    background: url("download1.jpeg") bottom right  150px 150px repeat-x;
+
+
+    /* background-image:url("download1.jpeg");
+    background-position: bottom right;
+    background-size: 150px 150px;
+    background-repeat: repeat-x; */
+}

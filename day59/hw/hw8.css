@@ -1,0 +1,26 @@
+/* 7)შექმენით დივი სადაც იქნება მოთავსებული ერთი ფოტო რომელიც დაფარავს დივს და ერთი ტექსტი ---> For Sale,
+
+შენი დავალებაა რომ ფოტოს გადააფარო ზემოდან ეს ტექსტი და აიტანო დივის ზემოთ მარჯვენა კუთხეში
+ */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

@@ -1,0 +1,37 @@
+/* 3)გაქვს flex კონტეინერი (height: 400px) 4 ელემენტით.
+
+მოაწყე ისე, რომ:
+
+პირველი ელემენტი იყოს ქვემოთ
+მეორე ელემენტი იყოს ზემოთ
+მესამე ელემენტი იყოს ცენტრში
+მეოთხე დარჩეს default პოზიციაზე
+
+გამოიყენე align-self თითოეულზე ინდივიდუალურად */
+
+.parent{
+    height: 400px;
+    width: 500px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.child{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+
+#div1{
+    align-self: flex-end;
+}
+
+#div2{
+    align-self: flex-start;
+}
+
+#div3{
+    align-self: center;
+}

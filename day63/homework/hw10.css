@@ -1,0 +1,17 @@
+/* 10)შექმენი ბლოკი და hover-ზე:
+
+შემცირდეს ზომაში
+
+მარცხნივ გადავიდეს 
+
+ოდნავ დახრილი გახდეს  */
+
+div{
+    height: 500px;
+    width: 500px;
+    border: 2px solid red;
+}
+
+div:hover{
+    transform: scale(0.5) rotate(30deg) translateX(-300px);
+}

@@ -1,0 +1,29 @@
+/* 3)შექმენი 2 box:
+
+პირველი — ჩვეულებრივი (static)
+მეორე — relative
+
+relative box გადაადგილე მარცხნივ - 40px
+
+კითხვა:
+რა განსხვავებაა ამ ორს შორის ვიზუალურად და layout-ში? */
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  margin: 20px;
+}
+
+.static {
+  position: static;
+}
+
+.relative {
+  position: relative;
+  left: -40px;
+  background-color: orange;
+}
+
+
+/* relative - is micemis shemdeg es box layout dan ar gavida, anu tavisi adgili isev ukavia.*/

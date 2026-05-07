@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-family: "League Spartan", sans-serif;
+    
+}
+
+#parent{
+    display: flex;
+    flex-direction: column;
+    padding-top: 85px;
+    gap: 37px;
+}
+.parent1{
+    width: 850px;
+    height: 200px;
+    display: flex;
+    gap: 85px;
+}
+.parent2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 19px;
+}
+
+.firsth1{
+    color:hsl(300, 43%, 22%) ;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.p1{
+    font-size: 14px;
+    opacity: 60%;
+    color: hsl(300, 43%, 22%);
+    line-height: 1.3;
+}
+
+.parent3{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.parent4{
+    height: 42px;
+    background-color: rgb(247, 242, 248);
+    max-width: 78%;
+    margin-left: 10px;
+    border-radius: 6px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    
+}
+
+.parent5{
+    height: 42px;
+    background-color: rgb(247, 242, 248);
+    border-radius: 6px;
+    margin-left: 42px;
+    max-width: 78%;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    
+}
+
+.parent6{
+    height: 42px;
+    background-color: rgb(247, 242, 248);
+    border-radius: 6px;   
+    max-width: 78%;
+    margin-left: 71px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.img1{
+    width: 12px;
+    height: 12px;
+}
+
+.p2{
+    font-size: 13px;
+    color: hsl(300, 43%, 22%);
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.parent7{
+    width: 850px;
+    height: 210px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.parent8{
+    width: 270px;
+    height: 180px;
+    border-radius: 5px;    
+    background-color: hsl(300, 43%, 22%);
+}
+
+.parent9{
+    width: 270px;
+    height: 180px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: hsl(300, 43%, 22%);
+}
+
+.parent10{
+    width: 270px;
+    height: 180px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: hsl(300, 43%, 22%);
+}
+
+.parent11{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.img2{
+    border-radius: 50%;
+    width: 29px;
+    height: 29px;
+}
+
+h2{
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.p3{
+    color:hsl(333, 80%, 67%);
+    font-size: 13px;
+    margin-top: 5px;
+    opacity: 80%;
+}
+
+.p4{
+    color: white;
+    font-size: 12px;
+    line-height: 1.4;
+    max-width: 95%;
+    opacity: 90%;
+}
+
+.parent8, .parent9, .parent10{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 25px;
+    gap: 20px;
+}

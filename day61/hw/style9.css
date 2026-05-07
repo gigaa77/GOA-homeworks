@@ -1,0 +1,22 @@
+.first{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    background-color: bisque;
+    position: relative;
+    height: 400vh;
+}
+
+.third{
+    width: 80%;
+    background-color: beige;
+    font-size: 30px;
+}
+
+.second{
+    position: fixed;
+    top:300px;
+    right: 50px;
+    width: 10%;
+}

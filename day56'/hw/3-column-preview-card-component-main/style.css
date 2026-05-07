@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent1{
+    width:830px ;
+    height: 470px;
+    background-color: black;
+    display: flex;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.parent2{
+    background-color:hsl(31, 77%, 52%) ;
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:start ;
+    padding: 40px 44px;
+    gap: 20px;
+
+
+}
+
+.parent3{
+    background-color:hsl(184, 100%, 22%) ;
+    width: 34%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 44px;
+    gap: 20px;
+    align-items:start;
+
+}
+
+.parent4{
+    background-color: hsl(179, 100%, 13%);
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 40px 44px;
+    gap: 20px;
+    
+
+}
+
+.img1{
+    width: 58px;
+    height: 36px;
+    margin-bottom: 15px;
+}
+
+.firsth{
+    color: white;
+    font-family: "Big Shoulders", sans-serif;
+    font-size: 35px;
+    font-weight: 700px;
+    opacity: 80%;
+    margin-bottom: 6px;
+}
+
+.p1{
+    font-family: "Lexend Deca", sans-serif;
+    color: white;
+    font-size: 14px;
+    line-height: 1.7;
+    width: 100%;
+    opacity: 60%;
+    margin-bottom: 62px;
+}
+
+.p2{
+    font-family: "Lexend Deca", sans-serif;
+    color: white;
+    font-size: 14px;
+    line-height: 1.7;
+    width: 100%;
+    opacity: 60%;
+    margin-bottom: 62px;
+}
+
+.p3{
+    font-family: "Lexend Deca", sans-serif;
+    color: white;
+    font-size: 13px;
+    line-height: 1.7;
+    width: 100%;
+    opacity: 60%;
+    margin-bottom: 70px;
+}
+
+.button1{
+    width: 71%;
+    height: 42px;
+    border-radius: 40px;
+    border: none;
+    color: hsl(31, 77%, 52%);
+    font-family: "Lexend Deca", sans-serif;
+    opacity: 80%;
+    font-size: 14px;
+}
+
+.button2{
+    width: 71%;
+    height: 42px;
+    border-radius: 40px;
+    border: none;
+    color: hsl(184, 100%, 22%);
+    font-family: "Lexend Deca", sans-serif;
+    opacity: 80%;
+    font-size: 14px;
+}
+
+.button3{
+    width: 71%;
+    height: 42px;
+    border-radius: 40px;
+    border: none;
+    color: hsl(179, 100%, 13%);
+    font-family: "Lexend Deca", sans-serif;
+    opacity: 80%;
+    font-size: 14px;
+}

@@ -1,0 +1,25 @@
+/* 5)გაქვს flex container და შიგნით 3 ელემენტი.
+
+ყველა ელემენტს აქვს საწყისი width (მაგ: 100px)
+გააკეთე ისე, რომ მეორე ელემენტმა დაიკავოს დანარჩენი თავისუფალი სივრცე
+
+გამოიყენე flex-grow */
+
+.parent{
+    height: 400px;
+    width: 500px;
+    border: 2px solid red;
+    display: flex;
+    gap: 10px;
+}
+
+.child{
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    border: 2px solid green;
+}
+
+#div2{
+    flex-grow:1  
+}

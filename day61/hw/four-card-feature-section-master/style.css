@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.parent1{
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    padding: 60px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+
+.parent2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+}
+
+.p1{
+    color: rgb(111, 112, 116);
+    font-size: 27px;
+    font-weight: 300;
+}
+
+.firsth{
+    color: rgb(72, 73, 91);
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.p2{
+    color: hsl(212, 6%, 44%);
+    width: 40%;
+    font-size: 11px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.parent3{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.divall{
+    height: 196px;
+    width: 270px;
+    border-radius: 7px;
+    box-shadow: 
+    0 2px 4px rgba(0, 0, 0, 0.05),
+    0 10px 20px rgba(0, 0, 0, 0.08),
+    0 20px 40px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    padding: 22px 24px;
+    gap: 4px;
+    
+}
+
+.parent5{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    height: 90%;
+}
+
+.cyan{
+    border-top:3.5px solid hsl(180, 62%, 55%);
+}
+
+.red{
+    border-top:3.5px solid hsl(0, 78%, 62%);
+}
+
+.orange{
+    border-top:3.5px solid hsl(34, 97%, 64%);
+}
+
+.blue{
+    border-top: 3.5px solid hsl(212, 86%, 64%);
+}
+
+.allh{
+    font-size: 16px;
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+
+.allp{
+    color: rgb(111, 112, 116);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+
+img{
+    width: 47px;
+    height: 47px;
+    align-self: flex-end;
+    margin-top: 16px;
+}

@@ -1,0 +1,17 @@
+/* 12)შექმენი წრე:
+
+hover-ზე:
+ოდნავ გაიზარდოს
+მარჯვნივ და ქვემოთ ერთად გადავიდეს (translate)
+ცოტათი დატრიალდეს */
+
+div{
+    height: 400px;
+    width: 300px;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+div:hover{
+    transform: scale(1.5) rotate(45deg) translate(45px, 80px);
+}

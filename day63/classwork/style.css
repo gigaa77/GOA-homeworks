@@ -1,0 +1,28 @@
+/* შექმენით ერთი დივი.მიეცით ზომები სიგანე და სიმაღლე,ამ დივშ ჩასვით bg ფოტო რომელიც -->
+
+იქნება ცენტრში,არ გამეორდება დივში(ანუ მხოლოდ ერთხელ გამეორდება) , იქნება ცენტეში და შეავსებს მთლიან დივს */
+
+
+
+
+div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+
+    background-image: url("pexels-roman-odintsov-8349104.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+
+    background: center no-repeat cover url(pexels-roman-odintsov-8349104.jpg);
+}

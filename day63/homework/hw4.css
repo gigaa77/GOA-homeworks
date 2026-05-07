@@ -1,0 +1,20 @@
+/* 4)შექმენი div:
+
+სურათი იყოს ქვედა მარცხენა მხარეს
+
+გამეორდეს y ზე
+
+ზომა იყოს 80px
+
+ბოლოს - გამოიყენე shorthand იც */
+
+div{
+    width: 400px;
+    height: 250px;
+    background-image: url("download1.jpeg");
+    background-position: bottom left;
+    background-size: 80px;
+    background-repeat: repeat-y;
+    /* background: bottom left 80px repeat-y url("download1.jpeg"); */
+    border: 2px solid red;
+}

@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+}
+
+.steps {
+  width: 50%;
+  padding: 20px;
+}
+
+.step {
+  height: 100vh;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.sticky-box {
+  position: sticky;
+  top: 0;
+  width: 50%;
+  height: 100vh;
+  background: #111;
+}
+
+img{
+    width: 100%;
+}

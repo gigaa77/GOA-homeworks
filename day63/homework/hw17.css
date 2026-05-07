@@ -1,0 +1,32 @@
+/* 17)შექმენი ბლოკი და hover-ზე:
+
+შემცირდეს
+მარცხნივ გადავიდეს
+ოდნავ მოტრიალდეს
+origin იყოს ქვედა მარჯვენა კუთხე */
+
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+div{
+    height: 400px;
+    width: 300px;
+    border: 2px solid red;
+    transform-origin: left bottom;
+}
+
+
+
+div:hover{
+    transform: scale(0.5) rotate(40deg) translateX(-500px) ;
+}

@@ -1,0 +1,28 @@
+/* 15)შექმენი div:
+
+hover-ზე:
+scale(1.2)
+rotate(360deg)
+translate(50px, 50px) */
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+div{
+    height: 400px;
+    width: 300px;
+    border: 2px solid red;
+}
+
+
+
+div:hover{
+    transform: scale(1.2) rotate(360deg) translate(50px, 50px);
+}

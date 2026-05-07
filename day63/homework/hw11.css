@@ -1,0 +1,27 @@
+/* 11)შექმენი კვადრატი:
+
+ნორმალურ მდგომარეობაში ცენტრში იყოს
+hover-ზე:
+ქვემოთ ჩავიდეს 50px ით
+
+გაიზარდოს ზომაში 3 ჯერ
+
+45 გრადუსით შემოტრიალდეს */
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+div{
+    height: 400px;
+    width: 300px;
+    border: 2px solid red;
+}
+
+div:hover{
+    transform: scale(3) rotate(45deg) translateY(45px);
+}

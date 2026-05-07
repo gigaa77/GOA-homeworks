@@ -1,0 +1,16 @@
+/* 8)შექმენი დივი რომელშიც ჩასვავ ბგ იმიჯს რომელიც არ მეორდება და არის ცენტრში და დაფარავს დივს , შიგნით ამ დივში ჩასვი კიდევ ერთი დივი და ამ დივსაც მიეცი სხვა bg იმიჯი,გასტილე როგორც გინდა
+ */
+
+.first{
+    height: 400px;
+    width: 400px;
+    border: 2px solid red;
+    background: url("download\ \(2\).jpg") center / cover no-repeat;
+}
+
+.hdhd{
+    background: url("download1.jpeg") top right / contain no-repeat;
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+}

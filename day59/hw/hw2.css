@@ -1,0 +1,31 @@
+/* 2)გაქვს 3 ბლოკი:
+
+<div class="box red"></div>
+<div class="box green"></div>
+<div class="box blue"></div>
+დავალება:
+
+ყველა იყოს რიგში(row) 
+მწვანე დივვი გადაადგილე:
+მარჯვნივ 30px
+ქვემოთ 20px
+ისე რომ არ ამოვარდეს განლაგებიდან და ქიდან დაიწყოს მოძრაობა სადაც ის არის */
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 7px solid red;
+}
+
+.green{
+    background-color: green;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
