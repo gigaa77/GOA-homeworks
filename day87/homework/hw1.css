@@ -1,0 +1,33 @@
+/* 1)შექმენი div და გამოიყენე CSS ცვლადი, რომელიც განსაზღვრავს მის ფონის ფერს.
+
+პირობა:
+
+შექმენი --bg-color.
+div-ის background-color აიღე ამ ცვლადიდან */
+
+
+:root{
+    --bg-color:red;
+    --text-color:blue;
+    --text-size:20px;
+    --btn-color: grey;
+    --btn-text: 20px;
+    --btn-radius: 20px;
+}
+
+div{
+    background-color: var(--bg-color);
+    width: 200px;
+    height: 100px;
+}
+
+h1{
+    color: var(--text-color);
+    font-size: var(--text-size);
+}
+
+button{
+    color: var(--btn-color);
+    font-size: (var(--btn-text));
+    border-radius: var(--btn-radius);
+}

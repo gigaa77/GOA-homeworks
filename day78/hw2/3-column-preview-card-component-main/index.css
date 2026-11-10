@@ -1,0 +1,24 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 900px;
+  margin: 50px auto;
+  height: 400px;
+}
+
+.card {
+  padding: 40px;
+  color: white;
+}
+
+.sedan {
+  background: orange;
+}
+
+.suv {
+  background: teal;
+}
+
+.luxury {
+  background: darkslategray;
+}

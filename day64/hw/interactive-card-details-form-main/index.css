@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.parent1{
+    
+    width: 75%;
+    height: 100%;
+    background: url("./images/bg-main-desktop.png") no-repeat white top left / contain;
+    padding: 195px 175px;
+    display: flex;
+    gap: 127px;
+}   
+
+.parent2{
+    width: 541px;
+    height: 527px;
+    display: flex;
+    gap: 37px;
+    flex-direction: column;
+}
+
+.parent3{
+    width: 447px;
+    height: 245px;
+    background: url("./images/bg-card-front.png");
+    border-radius: 10px;
+    padding: 27px 32px;
+    color: white;
+}
+
+.parent4{
+    width: 447px;
+    height: 245px;
+    background: url("./images/bg-card-back.png");
+    margin-left: 94px;
+    border-radius: 10px;
+    
+}
+
+.img1{
+    margin-bottom: 64px;
+}
+
+.p1{
+    font-weight: 500;
+    font-size: 27px;
+    letter-spacing: 3.42px;
+    line-height: 100%;
+    width: 372px;
+}
+
+.parent5{
+    width: 383.14px;
+    height: 18px;
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p2{
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.parent6{
+    width: 361px;
+    height: 38px;
+    margin-top: 101px;
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0px 0px 0px 313px;
+
+}
+
+
+.parent7{
+    width: 381px;
+    height: 352px;
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+label{
+    color: #21092F;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 2px ;
+}
+
+input{
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px #DFDEE0 solid;
+}
+.parent8{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-bottom: 26px;
+}
+
+.parent9{
+    display: flex;
+    gap: 20px;
+}
+
+.parent10{
+    width: 170px;
+    height: 69px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px
+}
+
+.parent11{
+    width: 191px;
+    height: 69px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+input[type="number"]{
+    width: 80px;
+    height: 45px;
+    padding: 11px 16px;
+    font-size: 18px;
+}
+
+input[type="text"]{
+    padding: 11px 16px;
+    font-size: 18px;
+}
+
+
+.parent12{
+    gap: 10px;
+}
+
+.margin{
+    margin-left: 4px;
+}
+
+button{
+    width: 100%;
+    background-color: #21092F;
+    display: flex;
+    margin-top: 35px;
+    height: 53px;
+    color: white;
+    font-size: 17px;
+    border-radius: 8px;
+    font-weight: 500;
+    padding: 15px 157px;
+}
+
+input[type="text"]::placeholder{
+    opacity: 35%;
+}
+
+input[type="number"]::placeholder{
+    opacity: 35%;
+}

@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Karla", sans-serif;
+  padding: 43px 0px;
+  
+}
+
+.Headerdiv{
+  width: 1200px;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+
+.headerdiv{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+}
+
+.Headerdiv h1, .facebookdiv h1{
+  font-size: 29px;
+  color: black;
+  font-weight: 500;
+}
+
+.headerbutton{
+  width: 155px;
+  height: 36px;
+  background: none;
+  margin-right: 7px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.headerps{
+  color: #837D87;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
+.purplediv{
+  width: 100%;
+  height: 676px;
+  background-color: #2D2640;
+  padding: 127px 120px;
+  position: relative;
+}
+
+
+.minipurplediv{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 628px;
+  gap: 25px;
+}
+
+
+
+.minipurplediv h1{
+  font-size: 60px;
+  color: white;
+  width: 70%;
+  line-height: 80px;
+  font-family: "DM Serif Display", serif;
+  font-weight: 500;
+}
+
+.minipurplediv p {
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  width: 97%;
+  font-weight: 400;
+}
+
+.minipurplediv button, .findoutdiv button{
+  width: 155px;
+  height: 40px;
+  background: none;
+  margin-right: 7px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  border: 1px solid white;
+}
+
+
+
+.heroimage {
+  position: absolute;
+  right: 129px;
+  top: 127px;
+  width: 590px;
+  height: 724px;
+  object-fit: cover;
+}
+
+
+.differentsection{
+  margin-top: 387px ;
+  padding:0px 74px 0px 120px;
+}
+
+
+.differentdiv{
+  width: 1300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 45px;
+}
+
+.minipurplediv hr{
+  width: 230px;
+  margin-bottom: 19px;
+}
+
+
+.differentdiv hr{
+  width: 230px;
+  border: 0;
+  border: 1px solid black;
+}
+
+.differentdiv h1{
+  font-size: 60px;
+  color: #2B272F;
+  width: 70%;
+  line-height: 80px;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  margin-bottom: 96px;
+}
+
+.parentofthree{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 24px;
+}
+
+
+.div1,.div2,.div3 {
+  width: 33.3333%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+
+.div1 h1 , .div2 h1 , .div3 h1{
+  font-size: 38px;
+  margin-bottom: 7px;
+}
+
+.div1 p , .div2 p, .div3 p{
+  margin: 0;
+  color: #2B272F;
+  font-size: 18px;
+  font-weight: 500;
+  width: 89%;
+}
+
+#secondp{
+  width: 99%;
+}
+
+
+
+#thirdp{
+  width: 95%;
+}
+
+
+.howwework{
+  display: flex;
+  justify-content: center;
+  margin-top: 170px;
+  margin-bottom: 184px;
+}
+
+.howweworkdiv{
+  width: 1280px;
+  padding: 97px 73px 97px 103px;
+  background-color: #2D2640;
+}
+
+.findoutdiv{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.findoutdiv h1{
+  font-size: 50px;
+  line-height: 55px;
+  font-family: "DM Serif Display", serif;
+  width: 40%;
+  font-weight: 400;
+  color: white;
+}
+
+
+.footerdiv{
+  height: 600px;
+  width: 100%;
+  background-color: #F3F3F3;
+  padding: 93px 120px;
+}
+
+.facebookdiv{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgdivs{
+  display: flex;
+  gap: 20px;
+}
+
+#facebookhr{
+  width: 100%;
+  border: 1px solid #837D87;
+  margin-top: 20px;
+}
+
+.listsdiv{
+  width: 100%;
+  margin-top: 92px;
+  height: 230px;
+  display: flex;
+  gap: 175px;
+}
+
+.list1, .list2, .list3, .list4{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 23px;
+}
+
+.list1 h1, .list2 h1, .list3 h1, .list4 h1{
+  font-size: 20px;
+  color: #837D87;
+  font-family: 500;
+}
+
+.list1 ul, .list2 ul, .list3 ul, .list4 ul{
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.firstul li, .secondul li, .thirdul li, .fourthul li{
+  list-style: none;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+

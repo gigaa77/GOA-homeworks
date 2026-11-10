@@ -1,0 +1,19 @@
+div{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+p{
+    color: red;
+    font-size: 100px;
+}
+
+div:hover{
+    background-color: blue;
+    align-items: center;
+
+    justify-content: center;
+    display: flex;
+}
+

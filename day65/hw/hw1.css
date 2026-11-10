@@ -1,0 +1,18 @@
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition:
+        color 1.2s,
+        text-decoration 1s,
+        transform 0.3s;
+}
+
+
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
+    transform: scale(1.1);
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.parent1{
+    height: 100%;
+    width: 1020px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent2{
+    width: 77%;
+    height: 57%;
+    display: grid;
+    grid-template-columns: repeat(4,181px);
+    grid-template-rows: repeat(2, 198px);
+    grid-column-gap: 20px;
+    grid-row-gap: 18px;
+}
